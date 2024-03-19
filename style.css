@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    
+}
+li{
+    list-style: none;
+}
+header{
+    background-color: rgb(9, 143, 148);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 100px;
+    align-items: center;
+}
+.logo{
+    flex: 1;
+}
+.menu{
+    flex: 5;
+    display: flex;
+    justify-content: space-between;font-weight: bold;
+}
+
+.menu li{
+    
+    padding: 0 12px;
+    position: relative;
+}
+.menu li:hover .submenu{
+    display: block;
+    background-color:rgb(6, 83, 100) ;
+    color: rgb(228, 214, 219);
+    transform: ease-in 0.35s;
+    z-index: 1;
+    background: rgb(184, 236, 236);
+}
+.submenu>li>a:hover{
+    background-color:rgb(5, 71, 86) ;
+    color: rgb(227, 184, 12);
+    transform: ease-in 0.35s;
+    
+}
+.submenu{
+    position: absolute;
+    width: 150px;
+    border:rgb(4, 86, 4);
+    padding: 10px 0 10px 20px;
+   display:none;
+}
+.submenu ul{
+    padding: left 20px;
+    font-size: 12px ;
+}
+
+.submenu li a{
+    font-weight: normal;
+}
+
+menu li a{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    line-height: 20px;
+}
+.others{
+    flex: 1;
+    display: flex;
+}
+.others li{
+    padding: 0 12px;
+}
+.others li:first-child{
+    position: relative;
+}
+.others li:first-child input {
+    width: 100%;
+    border: none;
+    border-bottom:rgb(193, 193, 207) ;
+}
+.others li:first-child i{
+    position: absolute;
+    right: 13px;
+}
+
+#Slider{
+    padding-bottom: 90px;
+    border-bottom: 2px solid #17401f;
+    overflow: hidden;
+ 
+}
+.aspect-radio-169{
+    display: block;
+    position: relative;
+    padding-top: 30%;
+    transform: 0.2s;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.aspect-radio-169 img{
+    display: block;
+    position: absolute;
+    width: 70%;
+    height: 90%;
+    top: 0;
+    left: 0;
+    
+}
+.dot-container{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(105, 95, 95);
+    border-radius: 20%;
+    margin-right: 12px;
+}
+.dot.active{
+    background-color: rgb(0, 0, 0);
+}
+.wrapper {
+    padding: 2rem;
+  }
+  
+  .products ul {
+    display: inline-block;
+  }
+  section h2{
+    margin: 0 0 20px;
+    text-align: center;
+  }
+  .products ul .main-product {
+    margin-bottom: 30px;
+    margin-right: 10px;
+    display: block;
+    float: left;
+    width: 24%;
+  }
+  
+  .products ul .no-margin {
+    margin-right: 0;
+  }
+  
+  .products ul .img-product img {
+    width: 100%;
+  }
+  
+  .content-product .content-product-h3 {
+    padding: .5rem 0;
+    overflow: hidden;
+    color: #222;
+    font-weight: 500;
+    font-size: 16px;
+    max-height: 50px;
+    min-height: 50px;
+    text-align: center;
+    line-height: 19px;
+    margin: 0 0 5px;
+  }
+  
+  .content-product .content-product-deltals {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+  }
+  
+  .main-product .content-product .content-product-deltals .price {
+    color: #c7b200;
+    font-weight: 700;
+    margin-right: 1rem;
+    vertical-align: middle;
+    font-size: 20px;
+  }
+  
+  .content-product .content-product-deltals .price .money {
+    vertical-align: middle;
+  }
+  
+  .content-product .content-product-deltals .btn-cart {
+    background: #f1df11;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .content-product .content-product-deltals .btn-cart:hover {
+    background: #c7b200;
+  }
+  
+
+
+
+.section{
+    text-align: center;
+    align-items: center;
+    padding: 150px 0 100px;
+}
+.section h3{
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: #1f5b2b;
+    font-weight: bold;
+}
+.section input{
+    margin: 30px;
+    border: none;
+    border-bottom: 1px solid#a52727;
+    padding: 20px;
+    
+}
